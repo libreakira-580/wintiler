@@ -1,0 +1,17 @@
+{
+  "ModKey": "LWin",
+  "MasterCount": 1,
+  "MasterRatio": 0.6,
+  "Gaps": 8,
+  "PollIntervalMs": 250,
+  "Keybindings": {
+    "SpawnTerminal": "Mod+Enter",
+    "RunLauncher": "Mod+d",
+    "FocusNext": "Mod+j",
+    "FocusPrev": "Mod+k",
+    "ToggleFloating": "Mod+Shift+Space",
+    "CloseWindow": "Mod+Shift+q",
+    "MinimizeWindow": "Mod+Ctrl+m"
+  },
+  "Theme": "examples/theme-dracula.json"
+}

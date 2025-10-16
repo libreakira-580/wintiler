@@ -1,0 +1,5 @@
+Arch Mode Dotfiles Hints:
+- Windows Terminal settings.json suggestions
+- oh-my-posh theme suggestion: Paradox
+- Fonts: Fira Code, JetBrains Mono
+- Wallpaper: minimalist Arch-inspired

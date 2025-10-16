@@ -1,0 +1,32 @@
+
+<Window x:Class="WinTiler.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WinTiler Config UI" Height="500" Width="900">
+    <Grid Margin="10">
+        <TabControl>
+            <TabItem Header="Themes">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Theme editor (placeholder) - live preview supported" FontWeight="Bold"/>
+                    <Button Name="BtnLoadTheme" Click="BtnLoadTheme_Click" Margin="0,10,0,0">Load Theme</Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Keybindings">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Keybinding editor (placeholder) - shows all default keybinds" FontWeight="Bold"/>
+                    <Button Name="BtnEditKeybinds" Click="BtnEditKeybinds_Click" Margin="0,10,0,0">Edit Keybindings</Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Floating Rules">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Floating rules editor (placeholder)" FontWeight="Bold"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Preview">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Live tiling preview (placeholder)" FontWeight="Bold"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
